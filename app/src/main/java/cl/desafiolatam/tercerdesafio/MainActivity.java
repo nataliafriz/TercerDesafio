@@ -27,23 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onResponse
-                    (Call<QuestionsList> call, Response<QuestionsList> response) {
-
+                    (Call <QuestionsList> call, Response <QuestionsList> response) {
             }
-
             @Override
             public void onFailure(Call<QuestionsList> call, Throwable t) {
-
             }
         });
 
     }
-
     @Override
     protected void onStart() {
         super.onStart();
         Log.i(TAG,"Start activity");
-
     }
     @Override
     protected  void onResume() {
